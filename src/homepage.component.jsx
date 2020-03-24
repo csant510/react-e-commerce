@@ -1,44 +1,38 @@
 import React from "react";
+import "./homepage.styles.scss";
 
 const Homepage = () => (
-  <div classname="homepage">
+  <div className="homepage">
+    <h1>Welcome to my Homepage</h1>
     <div className="directory-menu">
-      <div className="Menu-item">
+      <div className="menu-item">
         <div className="content">
-          <h1 className="title">Hats</h1>
-          <span className="subtitle">Shop Now</span>
+          <div className="title">HATS</div>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
-    </div>
-    <div className="directory-menu">
-      <div className="Menu-item">
+      <div className="menu-item">
         <div className="content">
-          <h1 className="title">Jackets</h1>
-          <span className="subtitle">Shop Now</span>
+          <div className="title">JACKETS</div>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
-    </div>
-    <div className="directory-menu">
-      <div className="Menu-item">
+      <div className="menu-item">
         <div className="content">
-          <h1 className="title">Sneakers</h1>
-          <span className="subtitle">Shop Now</span>
+          <div className="title">SHOES</div>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
-    </div>
-    <div className="directory-menu">
-      <div className="Menu-item">
+      <div className="menu-item">
         <div className="content">
-          <h1 className="title">Women</h1>
-          <span className="subtitle">Shop Now</span>
+          <div className="title">WOMENS</div>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
-    </div>
-    <div className="directory-menu">
-      <div className="Menu-item">
+      <div className="menu-item">
         <div className="content">
-          <h1 className="title">Mens</h1>
-          <span className="subtitle">Shop Now</span>
+          <div className="title">MENS</div>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
     </div>
